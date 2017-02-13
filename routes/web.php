@@ -31,6 +31,12 @@ Route::group([
     Route::get('/dashboard', 'Admin\AdminController@getDashBoard');
 });
 
+Route::group([
+    'prefix' => 'pages'
+], function () {
+    Route::get('/home', 'Admin\AdminController@getHome');
+});
+
 Route::group(
     ['prefix' => 'my-travel-admin-101/api'],
     function () {

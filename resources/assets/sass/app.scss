@@ -5,5 +5,16 @@
 // Variables
 @import "variables";
 
-// Bootstrap
-@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+.page-inner {
+
+  input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+    padding: 12px 25px;
+    min-height: 35px;
+  }
+
+  .ep-list-filter {
+
+
+
+  }
+}

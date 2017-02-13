@@ -114,4 +114,13 @@ class AdminController extends Controller
     {
         return view('admin.dashboard');
     }
+
+    public function getHome()
+    {
+        return view('admin.home');
+    }
+
+
+
+
 }
